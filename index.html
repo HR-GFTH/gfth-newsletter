@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GFTH Newsletter</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+    header {
+      background-color: #004d26;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 1.5rem;
+    }
+    .year-section {
+      margin: 1rem;
+    }
+    .month {
+      background-color: white;
+      margin: 1rem 0;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .month h2 {
+      color: #004d26;
+      margin-bottom: 0.5rem;
+    }
+    .images {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .images img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    a.download {
+      display: block;
+      margin-top: 0.25rem;
+      color: #004d26;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>GFTH Newsletter</header>
+
+  <div class="year-section">
+    <h1 style="color:#004d26">2025</h1>
+
+    <div class="month">
+      <h2>April</h2>
+      <div class="images">
+        <div>
+          <a href="images/apr2025-1.jpg" target="_blank">
+            <img src="images/apr2025-1.jpg" alt="April Newsletter Page 1" />
+          </a>
+          <a class="download" href="images/apr2025-1.jpg" download>Download Page 1</a>
+        </div>
+        <div>
+          <a href="images/apr2025-2.jpg" target="_blank">
+            <img src="images/apr2025-2.jpg" alt="April Newsletter Page 2" />
+          </a>
+          <a class="download" href="images/apr2025-2.jpg" download>Download Page 2</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add more months like below -->
+    <div class="month">
+      <h2>March</h2>
+      <!-- Add images here later -->
+    </div>
+    <!-- ... January, December -->
+  </div>
+</body>
+</html>
